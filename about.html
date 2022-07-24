@@ -1,0 +1,210 @@
+<html>
+  <head>
+     <title>PPTM ARTS AND SCIENCE COLLEGE,CHERUR</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+     <link rel="stylesheet" href="pptmstyle.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+     <section class="sub-header" >
+   
+       <nav>
+            <a><img class="img" src="photos/pptm.jpg"></a>
+           <div class="nav-links" id="navlinks">
+             <i class="fa fa-times" id="bars" onclick="hidemenu()"></i>
+            <ul>
+               <li><a href="pptm.html">HOME</a></li>
+                <li><a href="#">ACADEMICS</a>
+                  <ul>
+                     <li><a href="bca.html">BCA</a></li>
+                       <li><a href="#">BBA</a></li>
+                       <li><a href="bba.html">BA.English</a></li>
+                       <li><a href="#">B.Com</a>
+                          <ul>
+                            <li><a href="bcomca.html">CA</a></li>
+                            <li><a href="bcomfin.html">Finance</a></li>
+                          </ul>
+                       </li>
+                      <li><a href="language.html">Languages</a></li>
+                   </ul>
+                </li>
+               <li><a href="facilities.html">FACILITIES</a></li>
+             <li><a href="about.html">ABOUT US</a></li>
+             </ul>
+           </div>
+            <i class="fa fa-bars" id="bars" onclick="showmenu()"></i> 
+       </nav>
+         
+         <h1>About us</h1>
+         
+         
+     </section>
+     
+     <!------ about us content ------>
+
+     
+      <section class="about-us">
+          <div class="about-row">
+             
+              <div class="about-col">
+                <div class="about-text">
+                  <h1>PPTM Arts And Science College, Cherur</h1>
+                  <p class="fac">Panakkad Pookoya Thangal Memorial Arts & Science College, Cherur (PPTM College) was started in 2013-14 academic year. It is run by PPTM Yatheem Khana Committee. The Committee aimed at providing the quality and moral education under conducive cultural environment. It wouldbe helpful to uplift the backward sections of the people of this area, who were traditionally kept aloof from the educational field. The college is affiliated to the University of Calicut and recognized by the Government of Kerala under self-financing stream.The college offers instructions in five UG programmes under Calicut University Choice Based Credit Semester System (CUCBCSS). The college is situated at the historically important place, Cherur. The area provides a congenial atmosphere for the pursuit of knowledge. It situates 3 kms away from Vengara town, 15 kms from the District Headquarter, Malappuram and Parappanangadi Railway Station; and 16 kms from the Calicut International Airport and Calicut university.</p>
+                  <a class="hero-btn red-btn" href="pptm.html">EXPLORE NOW</a>                    
+              </div>
+          </div>
+              
+               <div class="about-col">
+                <img src="photos/about.jpg">
+              </div>
+              
+          </div>
+      
+      </section>
+      
+
+      <!----  footer  ----->
+      
+      <section class="end">
+      
+          <div class="fot-row">
+              <div class="fot-col">
+              <h2>About Us</h2>
+                  <p>Panakkad Pookoya Thangal Memorial Arts & Science College, Cherur (PPTM College) was started in 2013-14 academic year. It is run by PPTM Yatheem Khana Committee. The Committee aimed at providing the quality and moral education under conducive cultural environment.</p>
+              </div>
+              <div class="fot-col">
+              <h3>Reach Us <div class="underline"><span></span></div></h3>
+              <p>PPTM Arts And Science College,</p>
+                  <p>Cherur P. O, Cherur,</p>
+                  <p>Pin 676 304</p>
+                  <p>Malappuram</p>
+                  <p>Kerala, India</p>
+                  <p class="email-id">pptmcollegecherur@gmail.com</p>
+                  <p> 9061853090 , 0494 245 3090</p>
+              </div>
+              <div class="fot-col">
+                  <h3>links <div class="underline"><span></span></div></h3>
+                  <ul>
+                      <li><a href="pptm.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="bca.html">Academics</a></li>
+                      <li><a href="facilities.html">Facilities</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                  </ul>
+              </div>
+              <div class="fot-col">
+                 <h3>Newsletter <div class="underline"><span></span></div></h3>
+                  <form>
+                      <i class="fa fa-envelope-o"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                      <button type="submit"><i class="fa fa-arrow-right" ></i></button>
+                  </form>
+                  <div class="icons">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <p class="copyright">2020 &copy; Copyright PPTM Arts And Science College. All Rights Reserved. Powered by Ashiq.</p>
+   </section>
+      
+      
+     <!------Javascript of menu----->
+     
+ 
+     <script type="text/javascript">
+     
+     var navlinks = document.getElementById("navlinks");
+     
+     function showmenu(){
+     navlinks.style.right="0"; 
+     }
+      
+      function hidemenu(){
+      navlinks.style.right="-200";
+      }
+     
+     
+     </script>
+      
+      <!------Javascript of testimonial----->
+      
+      <script type="text/javascript">
+      
+          var btn = document.getElementsByClassName("btn");
+          var slide = document.getElementById("slide");
+          
+          btn[0].onclick = function(){
+              slide.style.transform = "translateX(0px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[1].onclick = function(){
+              slide.style.transform = "translateX(-800px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[2].onclick = function(){
+              slide.style.transform = "translateX(-1600px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[3].onclick = function(){
+              slide.style.transform = "translateX(-2400px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[4].onclick = function(){
+              slide.style.transform = "translateX(-3200px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[5].onclick = function(){
+              slide.style.transform = "translateX(-4000px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+          
+          btn[6].onclick = function(){
+              slide.style.transform = "translateX(0px)";
+              for(i=0;i<7;i++){
+                  btn[i].classList.remove("active");
+              }
+              this.classList.add("active");
+          }
+                   
+      </script>
+     
+     </body>
+     </html>
+
+
+
+
+
+
+
+
